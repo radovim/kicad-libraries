@@ -1,0 +1,154 @@
+(footprint "MT3608 DCDC Boost Converter Module"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -16.5 -10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9119e3bc-3be9-4c77-8450-3eabaff9d254")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MT3608 DCDC Boost Converter Module"
+		(at 0.25 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "263c2f8a-0577-4250-aab5-51367c261124")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b776aa1b-2d0c-4bb3-85d9-6e8e4f85f6eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "466925f8-ff1d-465f-8647-de5a04fac0e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -18.75 -8.75)
+		(end 18.75 8.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "89806a01-af9a-4cb6-90c9-6474f1fe98f1")
+	)
+	(fp_rect
+		(start -18.9 -8.9)
+		(end 18.9 8.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "84114d82-e4fc-4903-be22-040c2924c63d")
+	)
+	(fp_rect
+		(start -18.6 -8.6)
+		(end 18.6 8.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "73b1ecbe-677b-4a04-8586-f007265bc37c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6b0e3a48-3118-49ca-818a-25cc5b7e3d91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -16 3.5)
+		(size 5 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "81099ceb-5c29-4dab-aa84-388c6404fded")
+	)
+	(pad "2" thru_hole roundrect
+		(at -16 -3.5)
+		(size 5 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "0e7bbea2-21df-4aef-9512-5457f777aaec")
+	)
+	(pad "2" thru_hole roundrect
+		(at 16 -3.5)
+		(size 5 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "6bf17dec-d2d9-43c0-913c-37042028d190")
+	)
+	(pad "3" thru_hole roundrect
+		(at 16 3.5)
+		(size 5 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "9f4f1c1e-e28b-4c4b-b83c-bd67eea3aa91")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/radovim/Projects/kicad_libraries/DCDC_Converters.pretty/MT3608 Converter.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
