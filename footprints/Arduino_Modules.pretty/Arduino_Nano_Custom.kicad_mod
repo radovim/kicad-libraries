@@ -1,4 +1,4 @@
-(footprint "Arduino_Nano"
+(footprint "Arduino_Nano_Custom"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Arduino_Nano"
+	(property "Value" "Arduino_Nano_Custom"
 		(at 8.89 19.05 90)
 		(layer "F.Fab")
 		(uuid "854801aa-c0f2-443a-8d31-fbf3951e74f1")
