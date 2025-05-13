@@ -140,7 +140,7 @@
 		(uuid "9f4f1c1e-e28b-4c4b-b83c-bd67eea3aa91")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/radovim/Projects/kicad_libraries/DCDC_Converters.pretty/MT3608 Converter.STEP"
+	(model "./MT3608 Converter.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
